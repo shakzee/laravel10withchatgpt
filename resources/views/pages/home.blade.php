@@ -1,3 +1,6 @@
+@extends('layouts.main')
+
+@section('maincontent')
 
 
             <!-- start feature-section-style-1  -->
@@ -3257,7 +3260,4 @@
                <!-- end container -->
             </div>
             <!-- end subscribe section -->
-
-
-
-
+@endsection

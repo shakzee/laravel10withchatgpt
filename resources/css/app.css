@@ -1,0 +1,17 @@
+/* Importing Bootstrap CSS */
+@import url('../theme/dependencies/bootstrap/css/bootstrap.min.css');
+
+/* Importing Font Awesome CSS */
+@import url('../theme/dependencies/fontawesome/css/all.min.css');
+
+/* Importing Animate CSS */
+@import url('../theme/dependencies/animate/animate.min.css');
+
+/* Importing Swiper CSS */
+@import url('../theme/dependencies/swiper/css/swiper.min.css');
+
+/* Importing Magnific Popup CSS */
+@import url('../theme/dependencies/magnific-popup/css/magnific-popup.css');
+
+/* Importing custom style CSS */
+@import url('../theme/assets/css/style.css');
