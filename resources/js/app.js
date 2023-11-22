@@ -12,7 +12,4 @@ import '../theme/dependencies/theia-sticky-sidebar/resize-sensor.min.js';
 import '../theme/dependencies/theia-sticky-sidebar/theia-sticky-sidebar.min.js';
 import '../theme/dependencies/validator/validator.min.js';
 import '../theme/dependencies/tween-max/tween-max.js';
-import '../theme/dependencies/wow/js/wow.min.js';
-
-// Import custom app JavaScript
-import '../theme/assets/js/app.js';
+//import '../theme/dependencies/wow/js/wow.min.js';

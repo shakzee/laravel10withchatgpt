@@ -5,7 +5,7 @@
 
             <!-- start feature-section-style-1  -->
             <section class="rt-feature-section feature-section-style-1 overflow-hidden"
-               data-bg-image="media/elements/element_1.png">
+               data-bg-image="{{Vite::asset('resources/theme/media/elements/element_1.png')}}">
                <div class="container">
                   <div class="row gutter-24">
 
@@ -13,7 +13,7 @@
                         <div class="rt-post post-sm style-1">
                            <div class="post-img">
                               <a href="single-post1.html">
-                                 <img src="media/gallery/post-sm_1.jpg" alt="post" width="100" height="100">
+                                 <img src="{{ Vite::asset('resources/theme/media/gallery/post-sm_1.jpg')}}" alt="post" width="100" height="100">
                               </a>
                            </div>
                            <div class="ms-4 post-content">
@@ -37,7 +37,7 @@
                         <div class="rt-post post-sm style-1">
                            <div class="post-img">
                               <a href="single-post1.html">
-                                 <img src="media/gallery/post-sm_2.jpg" alt="post" width="100" height="100">
+                                 <img src="{{ Vite::asset('resources/theme/media/gallery/post-sm_2.jpg')}}" alt="post" width="100" height="100">
                               </a>
                            </div>
                            <div class="ms-4 post-content">
@@ -61,7 +61,7 @@
                         <div class="rt-post post-sm style-1">
                            <div class="post-img">
                               <a href="single-post1.html">
-                                 <img src="media/gallery/post-sm_3.jpg" alt="post" width="100" height="100">
+                                 <img src="{{ Vite::asset('resources/theme/media/gallery/post-sm_3.jpg')}}" alt="post" width="100" height="100">
                               </a>
                            </div>
                            <div class="ms-4 post-content">
@@ -84,7 +84,7 @@
                         <div class="rt-post post-sm style-1">
                            <div class="post-img">
                               <a href="single-post1.html">
-                                 <img src="media/gallery/post-sm_4.jpg" alt="post" width="100" height="100">
+                                 <img src="{{ Vite::asset('resources/theme/media/gallery/post-sm_4.jpg')}}" alt="post" width="100" height="100">
                               </a>
                            </div>
                            <div class="ms-4 post-content">
@@ -120,7 +120,7 @@
                         <div class="rt-post-overlay rt-post-overlay-xl layout-1">
                            <div class="post-img">
                               <a href="single-post1.html" class="img-link">
-                                 <img src="media/gallery/post-xl_1.jpg" alt="post-xl_1" width="900" height="600">
+                                 <img src="{{ Vite::asset('resources/theme/media/gallery/post-xl_1.jpg')}}" alt="post-xl_1" width="900" height="600">
                               </a>
                            </div>
                            <div class="post-content">
@@ -164,7 +164,7 @@
                               <div class="rt-post post-md style-10">
                                  <div class="post-img">
                                     <a href="single-post1.html">
-                                       <img src="media/gallery/post-lg_1.jpg" alt="post" width="696" height="491">
+                                       <img src="{{ Vite::asset('resources/theme/media/gallery/post-lg_1.jpg')}}" alt="post" width="696" height="491">
                                     </a>
                                  </div>
                                  <div class="post-content">
@@ -189,7 +189,7 @@
                               <div class="rt-post post-md style-10">
                                  <div class="post-img">
                                     <a href="single-post1.html">
-                                       <img src="media/gallery/post-lg_2.jpg" alt="post" width="696" height="491">
+                                       <img src="{{ Vite::asset('resources/theme/media/gallery/post-lg_2.jpg')}}" alt="post" width="696" height="491">
                                     </a>
                                  </div>
                                  <div class="post-content">
@@ -214,7 +214,7 @@
                               <div class="rt-post post-md style-10">
                                  <div class="post-img">
                                     <a href="single-post1.html">
-                                       <img src="media/gallery/travel-lg_2.jpg" alt="post" width="696" height="491">
+                                       <img src="{{ Vite::asset('resources/theme/media/gallery/travel-lg_2.jpg')}}" alt="post" width="696" height="491">
                                     </a>
                                  </div>
                                  <div class="post-content">
@@ -252,7 +252,7 @@
                      <div class="col-12">
                         <div class="ad-banner-img">
                            <a href="#">
-                              <img src="media/gallery/ad-banner_1.jpg" alt="ad-banner" width="1400" height="181">
+                              <img src="{{ Vite::asset('resources/theme/media/gallery/ad-banner_1.jpg')}}" alt="ad-banner" width="1400" height="181">
                            </a>
                         </div>
                      </div>
@@ -268,12 +268,12 @@
             <section class="top-stories-style-1 section-padding motion-effects-wrap">
                <ul class="element-list d-none d-xl-block">
                   <li class="motion-effects1"><img class="wow fadeInLeft" data-wow-delay="200ms"
-                        data-wow-duration="800ms" src="media/elements/element_2.png" alt="element_1" width="88"
+                        data-wow-duration="800ms" src="{{ Vite::asset('resources/theme/media/elements/element_2.png')}}" alt="element_1" width="88"
                         height="58"></li>
                   <li><img class="wow fadeInDown" data-wow-delay="400ms" data-wow-duration="800ms"
-                        src="media/elements/element_3.png" alt="element_2" width="182" height="72"></li>
+                        src="{{ Vite::asset('resources/theme/media/elements/element_3.png')}}" alt="element_2" width="182" height="72"></li>
                   <li><img class="wow fadeInRight" data-wow-delay="600ms" data-wow-duration="800ms"
-                        src="media/elements/element_4.png" alt="element_3" width="199" height="128"></li>
+                        src="{{ Vite::asset('resources/theme/media/elements/element_4.png')}}" alt="element_3" width="199" height="128"></li>
                </ul>
                <div class="container">
                   <div class="row">
@@ -291,7 +291,7 @@
                         <div class="rt-post-grid grid-meta">
                            <div class="post-img">
                               <a href="single-post1.html">
-                                 <img src="media/gallery/post-md_1.jpg" alt="post" width="551" height="431">
+                                 <img src="{{ Vite::asset('resources/theme/media/gallery/post-md_1.jpg')}}" alt="post" width="551" height="431">
                               </a>
                            </div>
                            <div class="post-content">
@@ -326,7 +326,7 @@
                         <div class="rt-post-grid grid-meta">
                            <div class="post-img">
                               <a href="single-post1.html">
-                                 <img src="media/gallery/post-md_2.jpg" alt="post" width="551" height="431">
+                                 <img src="{{ Vite::asset('resources/theme/media/gallery/post-md_2.jpg')}}" alt="post" width="551" height="431">
                               </a>
                            </div>
                            <div class="post-content">
@@ -361,7 +361,7 @@
                         <div class="rt-post-grid grid-meta">
                            <div class="post-img">
                               <a href="single-post1.html">
-                                 <img src="media/gallery/post-md_3.jpg" alt="post" width="551" height="431">
+                                 <img src="{{ Vite::asset('resources/theme/media/gallery/post-md_3.jpg')}}" alt="post" width="551" height="431">
                               </a>
                            </div>
                            <div class="post-content">
@@ -396,7 +396,7 @@
                         <div class="rt-post-grid grid-meta">
                            <div class="post-img">
                               <a href="single-post1.html">
-                                 <img src="media/gallery/post-md_4.jpg" alt="post" width="551" height="431">
+                                 <img src="{{ Vite::asset('resources/theme/media/gallery/post-md_4.jpg')}}" alt="post" width="551" height="431">
                               </a>
                            </div>
                            <div class="post-content">
@@ -479,7 +479,7 @@
                                           <div class="rt-post-overlay rt-post-overlay-lg">
                                              <div class="post-img">
                                                 <a href="single-post1.html" class="img-link">
-                                                   <img src="media/gallery/post-xl_2.jpg" alt="post-xl-2" width="900"
+                                                   <img src="{{ Vite::asset('resources/theme/media/gallery/post-xl_2.jpg')}}" alt="post-xl-2" width="900"
                                                       height="600">
                                                 </a>
                                              </div>
@@ -535,7 +535,7 @@
                                                    </div>
                                                    <div class="post-img">
                                                       <a href="single-post1.html">
-                                                         <img src="media/gallery/post-sm_5.jpg" alt="post" width="143"
+                                                         <img src="{{ Vite::asset('resources/theme/media/gallery/post-sm_5.jpg')}}" alt="post" width="143"
                                                             height="110">
                                                       </a>
                                                    </div>
@@ -558,7 +558,7 @@
                                                    </div>
                                                    <div class="post-img">
                                                       <a href="single-post1.html">
-                                                         <img src="media/gallery/post-sm_6.jpg" alt="post" width="143"
+                                                         <img src="{{ Vite::asset('resources/theme/media/gallery/post-sm_6.jpg')}}" alt="post" width="143"
                                                             height="110">
                                                       </a>
                                                    </div>
@@ -581,7 +581,7 @@
                                                    </div>
                                                    <div class="post-img">
                                                       <a href="single-post1.html">
-                                                         <img src="media/gallery/post-sm_7.jpg" alt="post" width="143"
+                                                         <img src="{{ Vite::asset('resources/theme/media/gallery/post-sm_7.jpg')}}" alt="post" width="143"
                                                             height="110">
                                                       </a>
                                                    </div>
@@ -605,7 +605,7 @@
                                                    </div>
                                                    <div class="post-img">
                                                       <a href="single-post1.html">
-                                                         <img src="media/gallery/post-sm_8.jpg" alt="post" width="143"
+                                                         <img src="{{ Vite::asset('resources/theme/media/gallery/post-sm_8.jpg')}}" alt="post" width="143"
                                                             height="110">
                                                       </a>
                                                    </div>
@@ -623,7 +623,7 @@
                                           <div class="rt-post-overlay rt-post-overlay-lg">
                                              <div class="post-img">
                                                 <a href="single-post1.html" class="img-link">
-                                                   <img src="media/gallery/post-xl_2.jpg" alt="post-xl_2" width="900"
+                                                   <img src="{{ Vite::asset('resources/theme/media/gallery/post-xl_2.jpg')}}" alt="post-xl_2" width="900"
                                                       height="600">
                                                 </a>
                                              </div>
@@ -679,7 +679,7 @@
                                                    </div>
                                                    <div class="post-img">
                                                       <a href="single-post1.html">
-                                                         <img src="media/gallery/post-sm_5.jpg" alt="post" width="143"
+                                                         <img src="{{ Vite::asset('resources/theme/media/gallery/post-sm_5.jpg')}}" alt="post" width="143"
                                                             height="110">
                                                       </a>
                                                    </div>
@@ -702,7 +702,7 @@
                                                    </div>
                                                    <div class="post-img">
                                                       <a href="single-post1.html">
-                                                         <img src="media/gallery/post-sm_6.jpg" alt="post" width="143"
+                                                         <img src="{{ Vite::asset('resources/theme/media/gallery/post-sm_6.jpg')}}" alt="post" width="143"
                                                             height="110">
                                                       </a>
                                                    </div>
@@ -725,7 +725,7 @@
                                                    </div>
                                                    <div class="post-img">
                                                       <a href="single-post1.html">
-                                                         <img src="media/gallery/post-sm_7.jpg" alt="post" width="143"
+                                                         <img src="{{ Vite::asset('resources/theme/media/gallery/post-sm_7.jpg')}}" alt="post" width="143"
                                                             height="110">
                                                       </a>
                                                    </div>
@@ -749,7 +749,7 @@
                                                    </div>
                                                    <div class="post-img">
                                                       <a href="single-post1.html">
-                                                         <img src="media/gallery/post-sm_8.jpg" alt="post" width="143"
+                                                         <img src="{{ Vite::asset('resources/theme/media/gallery/post-sm_8.jpg')}}" alt="post" width="143"
                                                             height="110">
                                                       </a>
                                                    </div>
@@ -767,7 +767,7 @@
                                           <div class="rt-post-overlay rt-post-overlay-lg">
                                              <div class="post-img">
                                                 <a href="single-post1.html" class="img-link">
-                                                   <img src="media/gallery/post-xl_2.jpg" alt="post-xl-2" width="900"
+                                                   <img src="{{ Vite::asset('resources/theme/media/gallery/post-xl_2.jpg')}}" alt="post-xl-2" width="900"
                                                       height="600">
                                                 </a>
                                              </div>
@@ -823,7 +823,7 @@
                                                    </div>
                                                    <div class="post-img">
                                                       <a href="single-post1.html">
-                                                         <img src="media/gallery/post-sm_5.jpg" alt="post" width="143"
+                                                         <img src="{{ Vite::asset('resources/theme/media/gallery/post-sm_5.jpg')}}" alt="post" width="143"
                                                             height="110">
                                                       </a>
                                                    </div>
@@ -846,7 +846,7 @@
                                                    </div>
                                                    <div class="post-img">
                                                       <a href="single-post1.html">
-                                                         <img src="media/gallery/post-sm_6.jpg" alt="post" width="143"
+                                                         <img src="{{ Vite::asset('resources/theme/media/gallery/post-sm_6.jpg')}}" alt="post" width="143"
                                                             height="110">
                                                       </a>
                                                    </div>
@@ -869,7 +869,7 @@
                                                    </div>
                                                    <div class="post-img">
                                                       <a href="single-post1.html">
-                                                         <img src="media/gallery/post-sm_7.jpg" alt="post" width="143"
+                                                         <img src="{{ Vite::asset('resources/theme/media/gallery/post-sm_7.jpg')}}" alt="post" width="143"
                                                             height="110">
                                                       </a>
                                                    </div>
@@ -893,7 +893,7 @@
                                                    </div>
                                                    <div class="post-img">
                                                       <a href="single-post1.html">
-                                                         <img src="media/gallery/post-sm_8.jpg" alt="post" width="143"
+                                                         <img src="{{ Vite::asset('resources/theme/media/gallery/post-sm_8.jpg')}}" alt="post" width="143"
                                                             height="110">
                                                       </a>
                                                    </div>
@@ -911,7 +911,7 @@
                                           <div class="rt-post-overlay rt-post-overlay-lg">
                                              <div class="post-img">
                                                 <a href="single-post1.html" class="img-link">
-                                                   <img src="media/gallery/post-xl_2.jpg" alt="post-xl-2" width="900"
+                                                   <img src="{{ Vite::asset('resources/theme/media/gallery/post-xl_2.jpg')}}" alt="post-xl-2" width="900"
                                                       height="600">
                                                 </a>
                                              </div>
@@ -967,7 +967,7 @@
                                                    </div>
                                                    <div class="post-img">
                                                       <a href="single-post1.html">
-                                                         <img src="media/gallery/post-sm_5.jpg" alt="post" width="143"
+                                                         <img src="{{ Vite::asset('resources/theme/media/gallery/post-sm_5.jpg')}}" alt="post" width="143"
                                                             height="110">
                                                       </a>
                                                    </div>
@@ -990,7 +990,7 @@
                                                    </div>
                                                    <div class="post-img">
                                                       <a href="single-post1.html">
-                                                         <img src="media/gallery/post-sm_6.jpg" alt="post" width="143"
+                                                         <img src="{{ Vite::asset('resources/theme/media/gallery/post-sm_6.jpg')}}" alt="post" width="143"
                                                             height="110">
                                                       </a>
                                                    </div>
@@ -1013,7 +1013,7 @@
                                                    </div>
                                                    <div class="post-img">
                                                       <a href="single-post1.html">
-                                                         <img src="media/gallery/post-sm_7.jpg" alt="post" width="143"
+                                                         <img src="{{ Vite::asset('resources/theme/media/gallery/post-sm_7.jpg')}}" alt="post" width="143"
                                                             height="110">
                                                       </a>
                                                    </div>
@@ -1037,7 +1037,7 @@
                                                    </div>
                                                    <div class="post-img">
                                                       <a href="single-post1.html">
-                                                         <img src="media/gallery/post-sm_8.jpg" alt="post" width="143"
+                                                         <img src="{{ Vite::asset('resources/theme/media/gallery/post-sm_8.jpg')}}" alt="post" width="143"
                                                             height="110">
                                                       </a>
                                                    </div>
@@ -1061,7 +1061,7 @@
                                     <div class="rt-post-overlay rt-post-overlay-md">
                                        <div class="post-img">
                                           <a href="single-post1.html" class="img-link">
-                                             <img src="media/gallery/post-xl_4.jpg" alt="post-xl_4" width="900"
+                                             <img src="{{ Vite::asset('resources/theme/media/gallery/post-xl_4.jpg')}}" alt="post-xl_4" width="900"
                                                 height="600">
                                           </a>
                                        </div>
@@ -1098,7 +1098,7 @@
                                     <div class="rt-post-overlay rt-post-overlay-md">
                                        <div class="post-img">
                                           <a href="single-post1.html" class="img-link">
-                                             <img src="media/gallery/post-xl_5.jpg" alt="post-xl_5" width="900"
+                                             <img src="{{ Vite::asset('resources/theme/media/gallery/post-xl_5.jpg')}}" alt="post-xl_5" width="900"
                                                 height="600">
                                           </a>
                                        </div>
@@ -1135,7 +1135,7 @@
                                     <div class="rt-post-overlay rt-post-overlay-md">
                                        <div class="post-img">
                                           <a href="single-post1.html" class="img-link">
-                                             <img src="media/gallery/post-xl_6.jpg" alt="post-xl_6" width="900"
+                                             <img src="{{ Vite::asset('resources/theme/media/gallery/post-xl_6.jpg')}}" alt="post-xl_6" width="900"
                                                 height="600">
                                           </a>
                                        </div>
@@ -1172,7 +1172,7 @@
                                     <div class="rt-post-overlay rt-post-overlay-md">
                                        <div class="post-img">
                                           <a href="single-post1.html" class="img-link">
-                                             <img src="media/gallery/post-xl_7.jpg" alt="post-xl_7" width="900"
+                                             <img src="{{ Vite::asset('resources/theme/media/gallery/post-xl_7.jpg')}}" alt="post-xl_7" width="900"
                                                 height="600">
                                           </a>
                                        </div>
@@ -1269,7 +1269,7 @@
                                     <div class="rt-post post-sm style-1">
                                        <div class="post-img">
                                           <a href="single-post1.html">
-                                             <img src="media/gallery/post-sm_1.jpg" alt="post" width="100" height="100">
+                                             <img src="{{ Vite::asset('resources/theme/media/gallery/post-sm_1.jpg')}}" alt="post" width="100" height="100">
                                           </a>
                                        </div>
                                        <div class="ms-4 post-content">
@@ -1291,7 +1291,7 @@
                                     <div class="rt-post post-sm style-1">
                                        <div class="post-img">
                                           <a href="single-post1.html">
-                                             <img src="media/gallery/post-sm_2.jpg" alt="post" width="100" height="100">
+                                             <img src="{{ Vite::asset('resources/theme/media/gallery/post-sm_2.jpg')}}" alt="post" width="100" height="100">
                                           </a>
                                        </div>
                                        <div class="ms-4 post-content">
@@ -1313,7 +1313,7 @@
                                     <div class="rt-post post-sm style-1">
                                        <div class="post-img">
                                           <a href="single-post1.html">
-                                             <img src="media/gallery/post-sm_3.jpg" alt="post" width="100" height="100">
+                                             <img src="{{ Vite::asset('resources/theme/media/gallery/post-sm_3.jpg')}}" alt="post" width="100" height="100">
                                           </a>
                                        </div>
                                        <div class="ms-4 post-content">
@@ -1335,7 +1335,7 @@
                                     <div class="rt-post post-sm style-1">
                                        <div class="post-img">
                                           <a href="single-post1.html">
-                                             <img src="media/gallery/post-sm_4.jpg" alt="post" width="100" height="100">
+                                             <img src="{{ Vite::asset('resources/theme/media/gallery/post-sm_4.jpg')}}" alt="post" width="100" height="100">
                                           </a>
                                        </div>
                                        <div class="ms-4 post-content">
@@ -1363,7 +1363,7 @@
                                  <div class="post-content">
                                     <div class="logo">
                                        <a href="index.html">
-                                          <img src="media/logo/logo-light.svg" alt="logo" width="162" height="52">
+                                          <img src="{{ Vite::asset('resources/theme/media/logo/logo-light.svg')}}" alt="logo" width="162" height="52">
                                        </a>
                                     </div>
                                     <h3 class="title">
@@ -1400,7 +1400,7 @@
                   <div class="swiper-wrapper">
 
                      <div class="swiper-slide">
-                        <div class="item  video-slide" data-bg-image="media/gallery/video-gallery-bg_1.jpg">
+                        <div class="item  video-slide" data-bg-image="{{Vite::asset('resources/theme/media/gallery/video-gallery-bg_1.jpg')}}">
                            <div class="container">
                               <div class="row justify-content-center">
                                  <div class="col-xl-7 col-lg-8 col-md-10">
@@ -1449,7 +1449,7 @@
                      <!-- end swiper-slide -->
 
                      <div class="swiper-slide">
-                        <div class="item  video-slide" data-bg-image="media/gallery/video-gallery-bg_2.jpg">
+                        <div class="item  video-slide" data-bg-image="{{Vite::asset('resources/theme/media/gallery/video-gallery-bg_2.jpg')}}">
                            <div class="container">
                               <div class="row justify-content-center">
                                  <div class="col-xl-7 col-lg-8 col-md-10">
@@ -1498,7 +1498,7 @@
                      <!-- end swiper-slide -->
 
                      <div class="swiper-slide">
-                        <div class="item  video-slide" data-bg-image="media/gallery/video-gallery-bg_3.jpg">
+                        <div class="item  video-slide" data-bg-image="{{Vite::asset('resources/theme/media/gallery/video-gallery-bg_3.jpg')}}">
                            <div class="container">
                               <div class="row justify-content-center">
                                  <div class="col-xl-7 col-lg-8 col-md-10">
@@ -1547,7 +1547,7 @@
                      <!-- end swiper-slide -->
 
                      <div class="swiper-slide">
-                        <div class="item  video-slide" data-bg-image="media/gallery/video-gallery-bg_4.jpg">
+                        <div class="item  video-slide" data-bg-image="{{Vite::asset('resources/theme/media/gallery/video-gallery-bg_4.jpg')}}">
                            <div class="container">
                               <div class="row justify-content-center">
                                  <div class="col-xl-7 col-lg-8 col-md-10">
@@ -1596,7 +1596,7 @@
                      <!-- end swiper-slide -->
 
                      <div class="swiper-slide">
-                        <div class="item  video-slide" data-bg-image="media/gallery/video-gallery-bg_2.jpg">
+                        <div class="item  video-slide" data-bg-image="{{Vite::asset('resources/theme/media/gallery/video-gallery-bg_2.jpg')}}">
                            <div class="container">
                               <div class="row justify-content-center">
                                  <div class="col-xl-7 col-lg-8 col-md-10">
@@ -1659,7 +1659,7 @@
                               <div class="item video-slide-thumb">
                                  <div class="rt-post post-sm post-thumb">
                                     <div class="post-img">
-                                       <img src="media/gallery/video-thumb_1.jpg" alt="post" width="130" height="100">
+                                       <img src="{{ Vite::asset('resources/theme/media/gallery/video-thumb_1.jpg')}}" alt="post" width="130" height="100">
                                     </div>
                                     <div class="ms-3 post-content">
                                        <span class="rt-post-cat-normal">Technology</span>
@@ -1683,7 +1683,7 @@
                               <div class="item video-slide-thumb">
                                  <div class="rt-post post-sm post-thumb">
                                     <div class="post-img">
-                                       <img src="media/gallery/video-thumb_2.jpg" alt="post" width="130" height="100">
+                                       <img src="{{ Vite::asset('resources/theme/media/gallery/video-thumb_2.jpg')}}" alt="post" width="130" height="100">
                                     </div>
                                     <div class="ms-3 post-content">
                                        <span class="rt-post-cat-normal">Sports</span>
@@ -1707,7 +1707,7 @@
                               <div class="item video-slide-thumb">
                                  <div class="rt-post post-sm post-thumb">
                                     <div class="post-img">
-                                       <img src="media/gallery/video-thumb_3.jpg" alt="post" width="130" height="100">
+                                       <img src="{{ Vite::asset('resources/theme/media/gallery/video-thumb_3.jpg')}}" alt="post" width="130" height="100">
                                     </div>
                                     <div class="ms-3 post-content">
                                        <span class="rt-post-cat-normal">Food</span>
@@ -1731,7 +1731,7 @@
                               <div class="item video-slide-thumb">
                                  <div class="rt-post post-sm post-thumb">
                                     <div class="post-img">
-                                       <img src="media/gallery/video-thumb_4.jpg" alt="post" width="130" height="100">
+                                       <img src="{{ Vite::asset('resources/theme/media/gallery/video-thumb_4.jpg')}}" alt="post" width="130" height="100">
                                     </div>
                                     <div class="ms-3 post-content">
                                        <span class="rt-post-cat-normal">Tech</span>
@@ -1755,7 +1755,7 @@
                               <div class="item video-slide-thumb">
                                  <div class="rt-post post-sm post-thumb">
                                     <div class="post-img">
-                                       <img src="media/gallery/video-thumb_2.jpg" alt="post" width="130" height="100">
+                                       <img src="{{ Vite::asset('resources/theme/media/gallery/video-thumb_2.jpg')}}" alt="post" width="130" height="100">
                                     </div>
                                     <div class="ms-3 post-content">
                                        <span class="rt-post-cat-normal">Tech</span>
@@ -1799,7 +1799,7 @@
                            <div class="wrap mb--60">
                               <div class="ad-banner-img">
                                  <a href="#">
-                                    <img src="media/gallery/ad-banner_2.jpg" alt="ad-banner" width="960" height="150">
+                                    <img src="{{ Vite::asset('resources/theme/media/gallery/ad-banner_2.jpg')}}" alt="ad-banner" width="960" height="150">
                                  </a>
                               </div>
                            </div>
@@ -1816,7 +1816,7 @@
                                  <div class="rt-post post-md style-2 grid-meta">
                                     <div class="post-img">
                                        <a href="single-post1.html">
-                                          <img src="media/gallery/post-lg_4.jpg" alt="post" width="696" height="491">
+                                          <img src="{{ Vite::asset('resources/theme/media/gallery/post-lg_4.jpg')}}" alt="post" width="696" height="491">
                                        </a>
                                     </div>
                                     <div class="post-content">
@@ -1875,7 +1875,7 @@
                                  <div class="rt-post post-md style-2 grid-meta">
                                     <div class="post-img">
                                        <a href="single-post1.html">
-                                          <img src="media/gallery/post-lg_5.jpg" alt="post" width="696" height="491">
+                                          <img src="{{ Vite::asset('resources/theme/media/gallery/post-lg_5.jpg')}}" alt="post" width="696" height="491">
                                        </a>
                                     </div>
                                     <div class="post-content">
@@ -1934,7 +1934,7 @@
                                  <div class="rt-post post-md style-2 grid-meta">
                                     <div class="post-img">
                                        <a href="single-post1.html">
-                                          <img src="media/gallery/post-lg_6.jpg" alt="post" width="696" height="491">
+                                          <img src="{{ Vite::asset('resources/theme/media/gallery/post-lg_6.jpg')}}" alt="post" width="696" height="491">
                                        </a>
                                     </div>
                                     <div class="post-content">
@@ -1993,7 +1993,7 @@
                                  <div class="rt-post post-md style-2 grid-meta">
                                     <div class="post-img">
                                        <a href="single-post1.html">
-                                          <img src="media/gallery/post-lg_7.jpg" alt="post" width="696" height="491">
+                                          <img src="{{ Vite::asset('resources/theme/media/gallery/post-lg_7.jpg')}}" alt="post" width="696" height="491">
                                        </a>
                                     </div>
                                     <div class="post-content">
@@ -2054,7 +2054,7 @@
                            <div class="wrap ">
                               <div class="ad-banner-img">
                                  <a href="#">
-                                    <img src="media/gallery/ad-banner_3.jpg" alt="ad-banner" width="960" height="150">
+                                    <img src="{{ Vite::asset('resources/theme/media/gallery/ad-banner_3.jpg')}}" alt="ad-banner" width="960" height="150">
                                  </a>
                               </div>
                            </div>
@@ -2069,7 +2069,7 @@
                         <div class="rt-sidebar">
 
                            <div class="sidebar-wrap mb--40">
-                              <div class="subscribe-box-style-1" data-bg-image="media/elements/element_5.png">
+                              <div class="subscribe-box-style-1" data-bg-image="{{Vite::asset('resources/theme/media/elements/element_5.png')}}">
                                  <div class="subscribe-content">
                                     <h3 class="title">
                                        Subscribe To Our Newsletter
@@ -2102,31 +2102,31 @@
                               </h2>
                               <ul class="rt-categories">
                                  <li>
-                                    <a href="gaming.html" data-bg-image="media/gallery/cat_1.jpg">
+                                    <a href="gaming.html" data-bg-image="{{Vite::asset('resources/theme/media/gallery/cat_1.jpg')}}">
                                        <span class="cat-name">Sports</span>
                                        <span class="count">59</span>
                                     </a>
                                  </li>
                                  <li>
-                                    <a href="life-style.html" data-bg-image="media/gallery/cat_2.jpg">
+                                    <a href="life-style.html" data-bg-image="{{Vite::asset('resources/theme/media/gallery/cat_2.jpg')}}">
                                        <span class="cat-name">World</span>
                                        <span class="count">12</span>
                                     </a>
                                  </li>
                                  <li>
-                                    <a href="technology.html" data-bg-image="media/gallery/cat_3.jpg">
+                                    <a href="technology.html" data-bg-image="{{Vite::asset('resources/theme/media/gallery/cat_3.jpg')}}">
                                        <span class="cat-name">Technology</span>
                                        <span class="count">59</span>
                                     </a>
                                  </li>
                                  <li>
-                                    <a href="life-style.html" data-bg-image="media/gallery/cat_4.jpg">
+                                    <a href="life-style.html" data-bg-image="{{Vite::asset('resources/theme/media/gallery/cat_4.jpg')}}">
                                        <span class="cat-name">Food</span>
                                        <span class="count">12</span>
                                     </a>
                                  </li>
                                  <li>
-                                    <a href="life-style.html" data-bg-image="media/gallery/cat_5.jpg">
+                                    <a href="life-style.html" data-bg-image="{{Vite::asset('resources/theme/media/gallery/cat_5.jpg')}}">
                                        <span class="cat-name">Travel</span>
                                        <span class="count">12</span>
                                     </a>
@@ -2138,7 +2138,7 @@
                            <div class="sidebar-wrap mb--40">
                               <div class="ad-banner-img">
                                  <a href="#">
-                                    <img src="media/gallery/ad-post_1.jpg" alt="ad-banner" width="310" height="250">
+                                    <img src="{{ Vite::asset('resources/theme/media/gallery/ad-post_1.jpg')}}" alt="ad-banner" width="310" height="250">
                                  </a>
                               </div>
                            </div>
@@ -2156,7 +2156,7 @@
                                     <div class="rt-post-grid post-grid-md grid-meta">
                                        <div class="post-img">
                                           <a href="single-post1.html">
-                                             <img src="media/gallery/post-grid-md_1.jpg" alt="post" width="343"
+                                             <img src="{{ Vite::asset('resources/theme/media/gallery/post-grid-md_1.jpg')}}" alt="post" width="343"
                                                 height="250">
                                           </a>
                                        </div>
@@ -2181,7 +2181,7 @@
                                     <div class="rt-post-grid post-grid-md grid-meta">
                                        <div class="post-img">
                                           <a href="single-post1.html">
-                                             <img src="media/gallery/post-grid-md_2.jpg" alt="post" width="343"
+                                             <img src="{{ Vite::asset('resources/theme/media/gallery/post-grid-md_2.jpg')}}" alt="post" width="343"
                                                 height="250">
                                           </a>
                                        </div>
@@ -2206,7 +2206,7 @@
                                     <div class="rt-post-grid post-grid-md grid-meta">
                                        <div class="post-img">
                                           <a href="single-post1.html">
-                                             <img src="media/gallery/post-grid-md_3.jpg" alt="post" width="343"
+                                             <img src="{{ Vite::asset('resources/theme/media/gallery/post-grid-md_3.jpg')}}" alt="post" width="343"
                                                 height="250">
                                           </a>
                                        </div>
@@ -2231,7 +2231,7 @@
                                     <div class="rt-post-grid post-grid-md grid-meta">
                                        <div class="post-img">
                                           <a href="single-post1.html">
-                                             <img src="media/gallery/post-grid-md_4.jpg" alt="post" width="343"
+                                             <img src="{{ Vite::asset('resources/theme/media/gallery/post-grid-md_4.jpg')}}" alt="post" width="343"
                                                 height="250">
                                           </a>
                                        </div>
@@ -2256,7 +2256,7 @@
                                     <div class="rt-post-grid post-grid-md grid-meta">
                                        <div class="post-img">
                                           <a href="single-post1.html">
-                                             <img src="media/gallery/post-grid-md_5.jpg" alt="post" width="343"
+                                             <img src="{{ Vite::asset('resources/theme/media/gallery/post-grid-md_5.jpg')}}" alt="post" width="343"
                                                 height="250">
                                           </a>
                                        </div>
@@ -2281,7 +2281,7 @@
                                     <div class="rt-post-grid post-grid-md grid-meta">
                                        <div class="post-img">
                                           <a href="single-post1.html">
-                                             <img src="media/gallery/post-grid-md_6.jpg" alt="post" width="343"
+                                             <img src="{{ Vite::asset('resources/theme/media/gallery/post-grid-md_6.jpg')}}" alt="post" width="343"
                                                 height="250">
                                           </a>
                                        </div>
@@ -2354,7 +2354,7 @@
                                        <div class="rt-post-overlay rt-post-overlay-md">
                                           <div class="post-img">
                                              <a href="single-post1.html" class="img-link">
-                                                <img src="media/gallery/post-xl_3.jpg" alt="post-xl-3" width="900"
+                                                <img src="{{ Vite::asset('resources/theme/media/gallery/post-xl_3.jpg')}}" alt="post-xl-3" width="900"
                                                    height="600">
                                              </a>
                                           </div>
@@ -2395,7 +2395,7 @@
                                              <div class="rt-post post-md style-8">
                                                 <div class="post-img">
                                                    <a href="single-post1.html">
-                                                      <img src="media/gallery/post-md_4.jpg" alt="post" width="343"
+                                                      <img src="{{ Vite::asset('resources/theme/media/gallery/post-md_4.jpg')}}" alt="post" width="343"
                                                          height="250">
                                                    </a>
                                                 </div>
@@ -2420,7 +2420,7 @@
                                              <div class="rt-post post-md style-8">
                                                 <div class="post-img">
                                                    <a href="single-post1.html">
-                                                      <img src="media/gallery/post-grid-md_7.jpg" alt="post" width="343"
+                                                      <img src="{{ Vite::asset('resources/theme/media/gallery/post-grid-md_7.jpg')}}" alt="post" width="343"
                                                          height="250">
                                                    </a>
                                                 </div>
@@ -2445,7 +2445,7 @@
                                              <div class="rt-post post-md style-8">
                                                 <div class="post-img">
                                                    <a href="single-post1.html">
-                                                      <img src="media/gallery/post-grid-md_8.jpg" alt="post" width="343"
+                                                      <img src="{{ Vite::asset('resources/theme/media/gallery/post-grid-md_8.jpg')}}" alt="post" width="343"
                                                          height="250">
                                                    </a>
                                                 </div>
@@ -2479,7 +2479,7 @@
                                              <div class="rt-post post-md style-8">
                                                 <div class="post-img">
                                                    <a href="single-post1.html">
-                                                      <img src="media/gallery/post-grid-md_9.jpg" alt="post" width="343"
+                                                      <img src="{{ Vite::asset('resources/theme/media/gallery/post-grid-md_9.jpg')}}" alt="post" width="343"
                                                          height="250">
                                                    </a>
                                                 </div>
@@ -2504,7 +2504,7 @@
                                              <div class="rt-post post-md style-8">
                                                 <div class="post-img">
                                                    <a href="single-post1.html">
-                                                      <img src="media/gallery/post-grid-md_10.jpg" alt="post"
+                                                      <img src="{{ Vite::asset('resources/theme/media/gallery/post-grid-md_10.jpg')}}" alt="post"
                                                          width="343" height="250">
                                                    </a>
                                                 </div>
@@ -2529,7 +2529,7 @@
                                              <div class="rt-post post-md style-8">
                                                 <div class="post-img">
                                                    <a href="single-post1.html">
-                                                      <img src="media/gallery/post-grid-md_11.jpg" alt="post"
+                                                      <img src="{{ Vite::asset('resources/theme/media/gallery/post-grid-md_11.jpg')}}" alt="post"
                                                          width="343" height="250">
                                                    </a>
                                                 </div>
@@ -2570,7 +2570,7 @@
                                        <div class="rt-post-overlay rt-post-overlay-md">
                                           <div class="post-img">
                                              <a href="single-post1.html" class="img-link">
-                                                <img src="media/gallery/post-xl_3.jpg" alt="post-xl-3" width="900"
+                                                <img src="{{ Vite::asset('resources/theme/media/gallery/post-xl_3.jpg')}}" alt="post-xl-3" width="900"
                                                    height="600">
                                              </a>
                                           </div>
@@ -2610,7 +2610,7 @@
                                              <div class="rt-post post-md style-8">
                                                 <div class="post-img">
                                                    <a href="single-post1.html">
-                                                      <img src="media/gallery/post-md_4.jpg" alt="post" width="343"
+                                                      <img src="{{ Vite::asset('resources/theme/media/gallery/post-md_4.jpg')}}" alt="post" width="343"
                                                          height="250">
                                                    </a>
                                                 </div>
@@ -2635,7 +2635,7 @@
                                              <div class="rt-post post-md style-8">
                                                 <div class="post-img">
                                                    <a href="single-post1.html">
-                                                      <img src="media/gallery/post-grid-md_7.jpg" alt="post" width="343"
+                                                      <img src="{{ Vite::asset('resources/theme/media/gallery/post-grid-md_7.jpg')}}" alt="post" width="343"
                                                          height="250">
                                                    </a>
                                                 </div>
@@ -2660,7 +2660,7 @@
                                              <div class="rt-post post-md style-8">
                                                 <div class="post-img">
                                                    <a href="single-post1.html">
-                                                      <img src="media/gallery/post-grid-md_8.jpg" alt="post" width="343"
+                                                      <img src="{{ Vite::asset('resources/theme/media/gallery/post-grid-md_8.jpg')}}" alt="post" width="343"
                                                          height="250">
                                                    </a>
                                                 </div>
@@ -2694,7 +2694,7 @@
                                              <div class="rt-post post-md style-8">
                                                 <div class="post-img">
                                                    <a href="single-post1.html">
-                                                      <img src="media/gallery/post-grid-md_9.jpg" alt="post" width="343"
+                                                      <img src="{{ Vite::asset('resources/theme/media/gallery/post-grid-md_9.jpg')}}" alt="post" width="343"
                                                          height="250">
                                                    </a>
                                                 </div>
@@ -2719,7 +2719,7 @@
                                              <div class="rt-post post-md style-8">
                                                 <div class="post-img">
                                                    <a href="single-post1.html">
-                                                      <img src="media/gallery/post-grid-md_10.jpg" alt="post"
+                                                      <img src="{{ Vite::asset('resources/theme/media/gallery/post-grid-md_10.jpg')}}" alt="post"
                                                          width="343" height="250">
                                                    </a>
                                                 </div>
@@ -2744,7 +2744,7 @@
                                              <div class="rt-post post-md style-8">
                                                 <div class="post-img">
                                                    <a href="single-post1.html">
-                                                      <img src="media/gallery/post-grid-md_11.jpg" alt="post"
+                                                      <img src="{{ Vite::asset('resources/theme/media/gallery/post-grid-md_11.jpg')}}" alt="post"
                                                          width="343" height="250">
                                                    </a>
                                                 </div>
@@ -2784,7 +2784,7 @@
                                        <div class="rt-post-overlay rt-post-overlay-md">
                                           <div class="post-img">
                                              <a href="single-post1.html" class="img-link">
-                                                <img src="media/gallery/post-xl_3.jpg" alt="post-xl-3" width="900"
+                                                <img src="{{ Vite::asset('resources/theme/media/gallery/post-xl_3.jpg')}}" alt="post-xl-3" width="900"
                                                    height="600">
                                              </a>
                                           </div>
@@ -2825,7 +2825,7 @@
                                              <div class="rt-post post-md style-8">
                                                 <div class="post-img">
                                                    <a href="single-post1.html">
-                                                      <img src="media/gallery/post-md_4.jpg" alt="post" width="343"
+                                                      <img src="{{ Vite::asset('resources/theme/media/gallery/post-md_4.jpg')}}" alt="post" width="343"
                                                          height="250">
                                                    </a>
                                                 </div>
@@ -2851,7 +2851,7 @@
                                              <div class="rt-post post-md style-8">
                                                 <div class="post-img">
                                                    <a href="single-post1.html">
-                                                      <img src="media/gallery/post-grid-md_7.jpg" alt="post" width="343"
+                                                      <img src="{{ Vite::asset('resources/theme/media/gallery/post-grid-md_7.jpg')}}" alt="post" width="343"
                                                          height="250">
                                                    </a>
                                                 </div>
@@ -2876,7 +2876,7 @@
                                              <div class="rt-post post-md style-8">
                                                 <div class="post-img">
                                                    <a href="single-post1.html">
-                                                      <img src="media/gallery/post-grid-md_8.jpg" alt="post" width="343"
+                                                      <img src="{{ Vite::asset('resources/theme/media/gallery/post-grid-md_8.jpg')}}" alt="post" width="343"
                                                          height="250">
                                                    </a>
                                                 </div>
@@ -2910,7 +2910,7 @@
                                              <div class="rt-post post-md style-8">
                                                 <div class="post-img">
                                                    <a href="single-post1.html">
-                                                      <img src="media/gallery/post-grid-md_9.jpg" alt="post" width="343"
+                                                      <img src="{{ Vite::asset('resources/theme/media/gallery/post-grid-md_9.jpg')}}" alt="post" width="343"
                                                          height="250">
                                                    </a>
                                                 </div>
@@ -2935,7 +2935,7 @@
                                              <div class="rt-post post-md style-8">
                                                 <div class="post-img">
                                                    <a href="single-post1.html">
-                                                      <img src="media/gallery/post-grid-md_10.jpg" alt="post"
+                                                      <img src="{{ Vite::asset('resources/theme/media/gallery/post-grid-md_10.jpg')}}" alt="post"
                                                          width="343" height="250">
                                                    </a>
                                                 </div>
@@ -2960,7 +2960,7 @@
                                              <div class="rt-post post-md style-8">
                                                 <div class="post-img">
                                                    <a href="single-post1.html">
-                                                      <img src="media/gallery/post-grid-md_11.jpg" alt="post"
+                                                      <img src="{{ Vite::asset('resources/theme/media/gallery/post-grid-md_11.jpg')}}" alt="post"
                                                          width="343" height="250">
                                                    </a>
                                                 </div>
@@ -3000,7 +3000,7 @@
                                        <div class="rt-post-overlay rt-post-overlay-md">
                                           <div class="post-img">
                                              <a href="single-post1.html" class="img-link">
-                                                <img src="media/gallery/post-xl_3.jpg" alt="post-xl-3" width="900"
+                                                <img src="{{ Vite::asset('resources/theme/media/gallery/post-xl_3.jpg')}}" alt="post-xl-3" width="900"
                                                    height="600">
                                              </a>
                                           </div>
@@ -3041,7 +3041,7 @@
                                              <div class="rt-post post-md style-8">
                                                 <div class="post-img">
                                                    <a href="single-post1.html">
-                                                      <img src="media/gallery/post-md_4.jpg" alt="post" width="343"
+                                                      <img src="{{ Vite::asset('resources/theme/media/gallery/post-md_4.jpg')}}" alt="post" width="343"
                                                          height="250">
                                                    </a>
                                                 </div>
@@ -3066,7 +3066,7 @@
                                              <div class="rt-post post-md style-8">
                                                 <div class="post-img">
                                                    <a href="single-post1.html">
-                                                      <img src="media/gallery/post-grid-md_7.jpg" alt="post" width="343"
+                                                      <img src="{{ Vite::asset('resources/theme/media/gallery/post-grid-md_7.jpg')}}" alt="post" width="343"
                                                          height="250">
                                                    </a>
                                                 </div>
@@ -3091,7 +3091,7 @@
                                              <div class="rt-post post-md style-8">
                                                 <div class="post-img">
                                                    <a href="single-post1.html">
-                                                      <img src="media/gallery/post-grid-md_8.jpg" alt="post" width="343"
+                                                      <img src="{{ Vite::asset('resources/theme/media/gallery/post-grid-md_8.jpg')}}" alt="post" width="343"
                                                          height="250">
                                                    </a>
                                                 </div>
@@ -3125,7 +3125,7 @@
                                              <div class="rt-post post-md style-8">
                                                 <div class="post-img">
                                                    <a href="single-post1.html">
-                                                      <img src="media/gallery/post-grid-md_9.jpg" alt="post" width="343"
+                                                      <img src="{{ Vite::asset('resources/theme/media/gallery/post-grid-md_9.jpg')}}" alt="post" width="343"
                                                          height="250">
                                                    </a>
                                                 </div>
@@ -3150,7 +3150,7 @@
                                              <div class="rt-post post-md style-8">
                                                 <div class="post-img">
                                                    <a href="single-post1.html">
-                                                      <img src="media/gallery/post-grid-md_10.jpg" alt="post"
+                                                      <img src="{{ Vite::asset('resources/theme/media/gallery/post-grid-md_10.jpg')}}" alt="post"
                                                          width="343" height="250">
                                                    </a>
                                                 </div>
@@ -3175,7 +3175,7 @@
                                              <div class="rt-post post-md style-8">
                                                 <div class="post-img">
                                                    <a href="single-post1.html">
-                                                      <img src="media/gallery/post-grid-md_11.jpg" alt="post"
+                                                      <img src="{{ Vite::asset('resources/theme/media/gallery/post-grid-md_11.jpg')}}" alt="post"
                                                          width="343" height="250">
                                                    </a>
                                                 </div>
@@ -3230,7 +3230,7 @@
                      <div class="col-lg-4 align-self-end wow fadeInLeft d-none d-lg-block" data-wow-delay="300ms"
                         data-wow-duration="800ms">
                         <div class="subscribe-img bouncing-bubble-animation">
-                           <img src="media/gallery/subscrible-img_1.png" alt="subscrible" width="401" height="327">
+                           <img src="{{ Vite::asset('resources/theme/media/gallery/subscrible-img_1.png')}}" alt="subscrible" width="401" height="327">
                         </div>
                      </div>
                      <!-- end col -->

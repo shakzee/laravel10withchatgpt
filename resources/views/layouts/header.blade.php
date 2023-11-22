@@ -11,7 +11,7 @@
    <title> Neeon | Home 01 - Main </title>
 
    <!-- Favicon -->
-   <link rel="shortcut icon" type="image/x-icon" href="media/favicon.png">
+   <link rel="shortcut icon" type="image/x-icon" href="{{ Vite::asset('resources/theme/media/favicon.png')}}">
 
    <!-- Dependency Stylesheet -->
    {{-- <link rel="stylesheet" type="text/css" href="dependencies/bootstrap/css/bootstrap.min.css">

@@ -14,7 +14,7 @@
                <div class="footer-widget">
                   <div class="logo footer-logo">
                      <a class="dark-logo" href="index.html">
-                        <img width="162" height="52" src="media/logo/logo-light.svg" alt="neeon">
+                        <img width="162" height="52" src="{{ Vite::asset('resources/theme/media/logo/logo-light.svg')}}" alt="neeon">
                      </a>
                   </div>
                   <p class="text">
@@ -63,7 +63,7 @@
                         <div class="rt-post post-sm white-style">
                            <div class="post-img">
                               <a href="single-post1.html">
-                                 <img src="media/gallery/post-sm_1.jpg" alt="post" width="100" height="100">
+                                 <img src="{{ Vite::asset('resources/theme/media/gallery/post-sm_1.jpg')}}" alt="post" width="100" height="100">
                               </a>
                            </div>
                            <div class="ms-3 post-content">
@@ -85,7 +85,7 @@
                         <div class="rt-post post-sm white-style">
                            <div class="post-img">
                               <a href="single-post1.html">
-                                 <img src="media/gallery/post-sm_2.jpg" alt="post" width="100" height="100">
+                                 <img src="{{ Vite::asset('resources/theme/media/gallery/post-sm_2.jpg')}}" alt="post" width="100" height="100">
                               </a>
                            </div>
                            <div class="ms-3 post-content">
@@ -156,32 +156,32 @@
                   <div class="insta-gallery">
                      <div class="galleryitem">
                         <a href="https://www.instagram.com/">
-                           <img src="media/gallery/ins-gallery_1.jpg" width="100" height="90" alt="gallery1">
+                           <img src="{{ Vite::asset('resources/theme/media/gallery/ins-gallery_1.jpg')}}" width="100" height="90" alt="gallery1">
                         </a>
                      </div>
                      <div class="galleryitem">
                         <a href="https://www.instagram.com/">
-                           <img src="media/gallery/ins-gallery_2.jpg" width="100" height="90" alt="gallery2">
+                           <img src="{{ Vite::asset('resources/theme/media/gallery/ins-gallery_2.jpg')}}" width="100" height="90" alt="gallery2">
                         </a>
                      </div>
                      <div class="galleryitem">
                         <a href="https://www.instagram.com/">
-                           <img src="media/gallery/ins-gallery_3.jpg" width="100" height="90" alt="gallery3">
+                           <img src="{{ Vite::asset('resources/theme/media/gallery/ins-gallery_3.jpg')}}" width="100" height="90" alt="gallery3">
                         </a>
                      </div>
                      <div class="galleryitem">
                         <a href="https://www.instagram.com/">
-                           <img src="media/gallery/ins-gallery_4.jpg" width="100" height="90" alt="gallery4">
+                           <img src="{{ Vite::asset('resources/theme/media/gallery/ins-gallery_4.jpg')}}" width="100" height="90" alt="gallery4">
                         </a>
                      </div>
                      <div class="galleryitem">
                         <a href="https://www.instagram.com/">
-                           <img src="media/gallery/ins-gallery_5.jpg" width="100" height="90" alt="gallery5">
+                           <img src="{{ Vite::asset('resources/theme/media/gallery/ins-gallery_5.jpg')}}" width="100" height="90" alt="gallery5">
                         </a>
                      </div>
                      <div class="galleryitem">
                         <a href="https://www.instagram.com/">
-                           <img src="media/gallery/ins-gallery_6.jpg" width="100" height="90" alt="gallery6">
+                           <img src="{{ Vite::asset('resources/theme/media/gallery/ins-gallery_6.jpg')}}" width="100" height="90" alt="gallery6">
                         </a>
                      </div>
                   </div>
@@ -219,10 +219,10 @@
    <div class="offcanvas-header">
       <div class="offcanvas-logo">
          <div class="site-branding">
-            <a class="dark-logo" href="index.html"><img width="162" height="52" src="media/logo/logo-dark.svg"
+            <a class="dark-logo" href="index.html"><img width="162" height="52" src="{{ Vite::asset('resources/theme/media/logo/logo-dark.svg')}}"
                   alt="neeon"></a>
             <a class="light-logo" href="index.html"><img width="162" height="52"
-                  src="media/logo/logo-light.svg" alt="neeon"></a>
+                  src="{{ Vite::asset('resources/theme/media/logo/logo-light.svg')}}" alt="neeon"></a>
          </div>
       </div>
       <div class="close-btn offcanvas-close">
@@ -247,32 +247,32 @@
       <div class="insta-gallery">
          <div class="galleryitem">
             <a href="https://www.instagram.com/">
-               <img src="media/gallery/ins-gallery_1.jpg" width="100" height="90" alt="gallery1">
+               <img src="{{ Vite::asset('resources/theme/media/gallery/ins-gallery_1.jpg')}}" width="100" height="90" alt="gallery1">
             </a>
          </div>
          <div class="galleryitem">
             <a href="https://www.instagram.com/">
-               <img src="media/gallery/ins-gallery_2.jpg" width="100" height="90" alt="gallery2">
+               <img src="{{ Vite::asset('resources/theme/media/gallery/ins-gallery_2.jpg')}}" width="100" height="90" alt="gallery2">
             </a>
          </div>
          <div class="galleryitem">
             <a href="https://www.instagram.com/">
-               <img src="media/gallery/ins-gallery_3.jpg" width="100" height="90" alt="gallery3">
+               <img src="{{ Vite::asset('resources/theme/media/gallery/ins-gallery_3.jpg')}}" width="100" height="90" alt="gallery3">
             </a>
          </div>
          <div class="galleryitem">
             <a href="https://www.instagram.com/">
-               <img src="media/gallery/ins-gallery_4.jpg" width="100" height="90" alt="gallery4">
+               <img src="{{ Vite::asset('resources/theme/media/gallery/ins-gallery_4.jpg')}}" width="100" height="90" alt="gallery4">
             </a>
          </div>
          <div class="galleryitem">
             <a href="https://www.instagram.com/">
-               <img src="media/gallery/ins-gallery_5.jpg" width="100" height="90" alt="gallery5">
+               <img src="{{ Vite::asset('resources/theme/media/gallery/ins-gallery_5.jpg')}}" width="100" height="90" alt="gallery5">
             </a>
          </div>
          <div class="galleryitem">
             <a href="https://www.instagram.com/">
-               <img src="media/gallery/ins-gallery_6.jpg" width="100" height="90" alt="gallery6">
+               <img src="{{ Vite::asset('resources/theme/media/gallery/ins-gallery_6.jpg')}}" width="100" height="90" alt="gallery6">
             </a>
          </div>
       </div>
@@ -345,7 +345,7 @@
       <li class="d-flex ">
          <div class="item-figure">
             <a href="#">
-               <img src="media/gallery/ins-gallery_1.jpg" alt="Cart" width="100" height="90">
+               <img src="{{ Vite::asset('resources/theme/media/gallery/ins-gallery_1.jpg')}}" alt="Cart" width="100" height="90">
             </a>
             <div class="item-dismiss">
                <a href="#"><i class="fas fa-times"></i></a>
@@ -360,7 +360,7 @@
       <li class="d-flex">
          <div class="item-figure">
             <a href="#">
-               <img src="media/gallery/ins-gallery_2.jpg" alt="Cart" width="100" height="90">
+               <img src="{{ Vite::asset('resources/theme/media/gallery/ins-gallery_2.jpg')}}" alt="Cart" width="100" height="90">
             </a>
             <div class="item-dismiss">
                <a href="#"><i class="fas fa-times"></i></a>
@@ -375,7 +375,7 @@
       <li class="d-flex">
          <div class="item-figure">
             <a href="#">
-               <img src="media/gallery/ins-gallery_3.jpg" alt="Cart" width="100" height="90">
+               <img src="{{ Vite::asset('resources/theme/media/gallery/ins-gallery_3.jpg')}}" alt="Cart" width="100" height="90">
             </a>
             <div class="item-dismiss">
                <a href="#"><i class="fas fa-times"></i></a>
@@ -454,8 +454,12 @@
 <script src="dependencies/wow/js/wow.min.js"></script> --}}
 
 <!-- custom -->
+
 {{-- <script src="assets/js/app.js"></script> --}}
 @vite('resources/js/app.js')
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.0.0/wow.min.js" integrity="sha512-ZaZAH1WrFSMgACichrG0R32MU1cxb5q+okvs2dMFVrzeDKHCQiS3hBMX/Mol0M9+gkKA4PQjj7MuHj5+JI8Spw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+@vite('resources/js/footer.js')
+
 </body>
 
 </html>

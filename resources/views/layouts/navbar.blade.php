@@ -123,10 +123,10 @@
                          <!-- start logo here -->
                          <div class="site-branding">
                             <a class="dark-logo" href="index.html">
-                               <img width="162" height="52" src="media/logo/logo-dark.svg" alt="neeon">
+                               <img width="162" height="52" src="{{ Vite::asset('resources/theme/media/logo/logo-dark.svg')}}" alt="neeon">
                             </a>
                             <a class="light-logo" href="index.html">
-                               <img width="162" height="52" src="media/logo/logo-light.svg" alt="neeon">
+                               <img width="162" height="52" src="{{ Vite::asset('resources/theme/media/logo/logo-light.svg')}}" alt="neeon">
                             </a>
                          </div>
                          <!-- end logo here -->
@@ -252,7 +252,7 @@
                 <div class="mobile-menu-bar">
                    <div class="logo">
                       <a href="index.html">
-                         <img src="media/logo/logo-dark.svg" alt="neeon" width="162" height="52">
+                         <img src="{{ Vite::asset('resources/theme/media/logo/logo-dark.svg')}}" alt="neeon" width="162" height="52">
                       </a>
                    </div>
                    <span class="sidebarBtn">
