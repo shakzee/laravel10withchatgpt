@@ -1,5 +1,7 @@
 // import './bootstrap';
-
+import.meta.glob([
+    '../theme/media/**/*',
+  ]);
 // Importing dependencies
 import '../theme/dependencies/jquery/jquery.min.js';
 import '../theme/dependencies/popper.js/popper.min.js';

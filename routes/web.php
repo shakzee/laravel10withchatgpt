@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Pages;
+use App\Http\Controllers\PagesController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
@@ -32,3 +33,8 @@ Route::middleware('auth')->group(function () {
 });
 
 require __DIR__.'/auth.php';
+
+
+Route::get('/contact', [PagesController::class, 'contact'])->name('contact');
+Route::get('/about', [PagesController::class, 'about'])->name('about');
+Route::post('/contact', [PagesController::class, 'submitContactForm'])->name('contact.submit');
