@@ -2,7 +2,6 @@
 
 @section('maincontent')
 
-
             <!-- start feature-section-style-1  -->
             <section class="rt-feature-section feature-section-style-1 overflow-hidden"
                data-bg-image="{{Vite::asset('resources/theme/media/elements/element_1.png')}}">
